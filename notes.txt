@@ -8,3 +8,24 @@ insalações pacote node.js:
 
 1 - npm install -g typescript
 2 - npm install lite-server
+
+
+
+---------inicializa lite-server
+
+npm start
+
+config - package.json 
+
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    
+    "start": "lite-server",
+    "watch": "tsc --watch"
+  },
+
+  ---DOC:
+  https://www.typescriptlang.org/docs/handbook/2/everyday-types.html
+  https://www.typescriptlang.org/tsconfig
+
+  ----npm run watch
